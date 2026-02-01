@@ -1,0 +1,49 @@
+ .button:hover {
+
+    -fx-opacity: 0.8;
+
+    -fx-cursor: hand;
+
+}
+
+
+/* Слайдер в стиле неона */
+
+.slider .track {
+
+    -fx-background-color: #1a1a1a;
+
+    -fx-pref-height: 4;
+
+}
+
+.slider .thumb {
+
+    -fx-background-color: #ff5500;
+
+    -fx-background-radius: 50;
+
+}
+
+
+/* Эффект при наведении на карточку */
+
+.song-card {
+
+    -fx-padding: 10;
+
+    -fx-background-radius: 15;
+
+    -fx-transition: 0.3s;
+
+}
+
+.song-card:hover {
+
+    -fx-background-color: #111;
+
+    -fx-scale-x: 1.05;
+
+    -fx-scale-y: 1.05;
+
+} 
